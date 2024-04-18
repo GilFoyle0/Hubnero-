@@ -1,0 +1,25 @@
+.Button {
+
+    color: var(--constant-white);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    box-shadow: 3px 3px 15px 0px var(--constant-black-alpha20);
+    cursor: pointer;
+    padding: 12px 22px;
+    border-radius: 26px;
+    border: none;
+}
+
+.green {
+    background: linear-gradient(35deg, var(--constant-green), var(--constant-green2));
+}
+
+.red {
+    background: linear-gradient(35deg, var(--constant-red), var(--constant-red2));
+}
+
+.blue {
+    background: linear-gradient(35deg, var(--constant-blue), var(--constant-blue2));
+}

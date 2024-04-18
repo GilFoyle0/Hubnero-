@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "target": "ES2017",
+        "strict": true,
+        "esModuleInterop": true,
+        "jsx": "react",
+        "lib": [
+            "dom",
+            "es2017",
+            "dom.iterable"
+          ],
+    },
+    "include": ["src", "public","webpack.config.js", "index.d.ts"],
+    "exclude": ["node_modules", "dist"]
+}
